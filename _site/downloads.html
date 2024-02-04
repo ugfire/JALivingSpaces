@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta
+      name="author"
+      content="JA Living Spaces Limited, Mark Otto, Jacob Thornton, and Bootstrap contributors" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet" />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <title>JA Living Spaces</title>
+
+    <link href="css/heroes.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="/plugins/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link
+      href="/plugins/bootstrap/typing.css"
+      rel="stylesheet" />
+  </head>
+
+  <body class="body">
+    <header>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <a class="nodecoration" href="/">
+      <img src="favicon.png" width="50px" alt="JA Living Spaces" />
+      <span class="fw-bold">JA Living Spaces</span>
+    </a>
+    <div class="text-right mx-auto">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarsExample10"
+        aria-controls="navbarsExample10"
+        aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div
+        class="collapse navbar-collapse justify-content-md-center"
+        id="navbarsExample10">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a
+              class="nav-link active"
+              aria-current="page"
+              href="/#about"
+              >About</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" onclick="contactus()"
+              >Contact</a
+            >
+          </li>
+
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle active"
+              href="/#"
+              id="dropdown10"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+              >Services</a
+            >
+            <ul class="dropdown-menu" aria-labelledby="dropdown10">
+              <li>
+                <a class="dropdown-item" href="/management.html"
+                  ><i class="bi bi-house-door"></i> Property Management</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="/#construction"
+                  ><i class="bi bi-house-door"></i> Construction</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="/#interiordesign"
+                  ><i class="bi bi-lightbulb"></i> Interior design & Setups</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="/#exteriordesign"
+                  ><i class="bi bi-lightbulb"></i> Outdoor Living Solutions</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="/#signature"
+                  ><i class="bi bi-wrench-adjustable"></i> J.A Signature
+                  Fit-ins</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="/#remodel"
+                  ><i class="bi bi-tools"></i> Building renovations & remodel</a
+                >
+              </li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active" href="/downloads.html"
+              >Downloads</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" onclick="getprojects()">Projects</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+ <main class="m-0 p-0">
+  <section class="mbanner m-0">
+    <div class="text-center">
+      <div class="bg-gradient-dark p-0 row container-fluid m-0">
+        <hr />
+        <div class="container-fluid mt-5 pt-5 py-5">
+          <h1 class="display-4 fw-bold h8 py-5 text-light text-center">
+            <span
+              class="typewrite"
+              data-period="2000"
+              data-type='[ " Downloads ", " ","" ]'></span>
+            <br />
+          </h1>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--------------------------------------------------END OF SECTION--------------------------------------------------------------------->
+
+  <div class="container-fluid m-0 p-0 mt-5">
+    <div class="p-0 row container-fluid m-0">
+      <div class="col-md-3">
+        <div class="m-1">
+          <img src="images/sketch2.jpg" alt="" class="img-fluid" />
+          <p class="text-center">
+            <a href="" class="btn btn-dark">
+              Our service catalog <i class="bi bi-download"></i>
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+<script src="js/jquery3.6.js"></script>
+<script src="js/typing.js"></script>
+ <footer class="text-muted py-5">
+  <hr />
+  <div class="container text-center">
+    <p class="text-center mb-1">
+      <a class="btn btn-secondary" href="#">Back to top</a>
+    </p>
+    <p class="mb-1 text-dark" id="contact">
+      &copy; JA Living Spaces Ltd @ 2024
+    </p>
+  </div>
+</footer>
+
+  </body>
+
+  <script src="/js/bootstrap.bundle.min.js"></script>
+  <script src="/js/jquery3.6.js"></script>
+  <script src="/js/typing.js"></script>
+</html>
