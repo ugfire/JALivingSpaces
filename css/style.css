@@ -42,7 +42,12 @@ body {
 .mbanner {
   background: rgba(67, 104, 50, 0.2) url("../images/mbanner2.jpg") !important;
 }
-
+.mbanner2 {
+  background: rgba(67, 104, 50, 0.2) url("../images/clientsbanner.jpg") !important;
+}
+.clientlogo {
+  max-height: 100px;
+}
 .vegetation {
   background: url("../images/green.jpg") !important;
 }
