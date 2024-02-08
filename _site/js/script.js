@@ -16,7 +16,7 @@ function contactus() {
 
           <p class="pb-5">
           <button class="btn btn-dark rounded rounded-5" onclick="window.location.href='https://twitter.com/JALivingSpaces'">
-            <i class="bi bi-twitter"></i></button>
+            <i class="bi bi-twitter-x"></i></button>
             <button class="btn btn-dark rounded rounded-5" onclick="window.location.href='https://facebook.com/jalivingspaces'">
             <i class="bi bi-facebook"></i></button>
             <button class="btn btn-dark rounded rounded-5" onclick="window.location.href='https://www.linkedin.com/company/j-a-design-associates/'">
