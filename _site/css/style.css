@@ -1,0 +1,422 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  margin: 0px !important;
+}
+
+.nodecoration {
+  text-decoration: none;
+  color: #000;
+}
+
+.nodecoration:hover {
+  color: #5f7f55;
+}
+.navbar-toggler {
+  background-color: #000000;
+}
+.cover {
+  background: #000 url("../images/newbg.jpg") !important;
+  background-size: cover;
+}
+.coverleaf {
+  background: #000 url("../images/leaf.jpg") !important;
+  background-size: cover;
+}
+
+.chairbgdark {
+  background: #000 url("../images/exterior.jpg") !important;
+  background-size: cover;
+}
+
+.property {
+  background: #000 url("../images/10.jpg") !important;
+  background-size: cover;
+}
+.body2 {
+  background: #000 url("../images/10.jpg") !important;
+}
+.bg-white {
+  background-color: #ffffff;
+}
+.section {
+  background: rgba(67, 104, 50, 0.2) url("../images/bg/cartographer.png") !important;
+}
+.mbanner {
+  background: rgba(67, 104, 50, 0.2) url("../images/mbanner2.jpg") !important;
+}
+.mbanner2 {
+  background: rgba(67, 104, 50, 0.2) url("../images/clientsbanner.jpg") !important;
+}
+.mbanner3 {
+  background: rgba(67, 104, 50, 0.2) url("../images/old.jpeg") !important;
+}
+.mbanner4 {
+  background: rgba(67, 104, 50, 0.2) url("../images/old.jpg") !important;
+}
+.mbanner5 {
+  background: rgba(67, 104, 50, 0.2) url("../images/clientsbanner2.jpg") !important;
+}
+.mbanner6 {
+  background: rgba(67, 104, 50, 0.2) url("../images/join.jpg") !important;
+}
+.mbanner7 {
+  background: rgba(67, 104, 50, 0.2) url("../images/buildbanner.jpg") !important;
+}
+.mbanner8 {
+  background: rgba(67, 104, 50, 0.2) url("../images/interior.jpg") !important;
+}
+.mbanner9 {
+  background: rgba(67, 104, 50, 0.2) url("../images/fitbanner.jpg") !important;
+}
+.mbanner10 {
+  background: rgba(67, 104, 50, 0.2) url("../images/outdoorbanner.jpg") !important;
+}
+.mbanner11 {
+  background: rgba(67, 104, 50, 0.2) url("../images/remodelbanner.jpg") !important;
+}
+.projectsbanner {
+  background: rgba(67, 104, 50, 0.2) url("../images/projectsbanner.jpg") !important;
+}
+.clientlogo {
+  max-height: 100px;
+}
+.vegetation {
+  background: url("../images/green.jpg") !important;
+}
+
+.training {
+  background: url("../images/bg/checkered-pattern.png") !important;
+}
+.greentext {
+  color: rgb(122, 210, 11);
+}
+
+.lightgreentext {
+  color: rgb(122, 210, 11);
+}
+
+.btn-green {
+  background-color: rgb(81, 147, 1);
+  color: #ffffff;
+}
+.btn-green:hover {
+  background-color: rgb(92, 167, 1);
+  color: #ffffff;
+}
+.bg-white-transparent {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.btn-green::after {
+  background-color: rgb(122, 210, 11);
+  color: #ffffff;
+}
+.whitetext {
+  color: #ffffff;
+}
+
+.bg-dark1 {
+  background-color: rgb(43, 43, 43) !important;
+}
+
+.bg-dark2 {
+  background-color: rgb(26, 26, 26) !important;
+}
+.bg-gradient-dark {
+  background: rgba(
+    81,
+    147,
+    1,
+    0.9
+  ); /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(
+    180deg,
+    rgba(81, 147, 1, 0.7),
+    rgba(1, 1, 1, 0.8)
+  ); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(
+    180deg,
+    rgba(81, 147, 1, 0.7),
+    rgba(1, 1, 1, 0.8)
+  ); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(
+    180deg,
+    rgba(81, 147, 1, 0.7),
+    rgba(1, 1, 1, 0.8)
+  ); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(
+    180deg,
+    rgba(81, 147, 1, 0.7),
+    rgba(1, 1, 1, 0.8)
+  ); /* Standard syntax */
+}
+
+.bg-gradient-white {
+  background: rgba(
+    81,
+    147,
+    1,
+    0.9
+  ); /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(
+    180deg,
+    rgba(81, 147, 1, 0.7),
+    rgba(255, 255, 255, 0.8)
+  ); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(
+    180deg,
+    rgba(81, 147, 1, 0.7),
+    rgba(255, 255, 255, 0.8)
+  ); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(
+    180deg,
+    rgba(81, 147, 1, 0.7),
+    rgba(255, 255, 255, 0.8)
+  ); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(
+    180deg,
+    rgba(81, 147, 1, 0.7),
+    rgba(255, 255, 255, 0.8)
+  ); /* Standard syntax */
+}
+
+.bg-gradient-light {
+  background: rgba(
+    81,
+    147,
+    1,
+    0.9
+  ); /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(
+    180deg,
+    rgba(81, 147, 1, 0.7),
+    rgba(255, 255, 255, 0.8)
+  ); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(
+    180deg,
+    rgba(81, 147, 1, 0.7),
+    rgba(255, 255, 255, 0.8)
+  ); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(
+    180deg,
+    rgba(81, 147, 1, 0.7),
+    rgba(255, 255, 255, 0.8)
+  ); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(
+    180deg,
+    rgba(81, 147, 1, 0.7),
+    rgba(255, 255, 255, 0.8)
+  ); /* Standard syntax */
+}
+
+.text-normal {
+  font-style: normal;
+}
+.navbar-nav a {
+  color: rgb(0, 0, 0) !important;
+}
+
+.dropdown-menu a {
+  padding-top: 15px !important;
+  border-bottom: 1px ridge #5f7f55;
+}
+
+.dropdown-menu {
+  background-color: rgba(255, 255, 255, 0.9) !important;
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+  font-weight: bold;
+  background-color: #b3fd6a;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+  text-decoration: none;
+  background-color: #b3fd6a;
+}
+
+.training {
+  background-color: rgba(34, 167, 22, 0.5);
+  margin: 0px 20px;
+}
+
+.section {
+  background-color: rgba(24, 167, 22, 0.5);
+  margin: 20px;
+}
+
+.svgpic {
+  width: 80px;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.bg-blue {
+  background-color: aliceblue;
+}
+
+.bg-grey {
+  background-color: rgb(231, 231, 231);
+}
+
+.badge {
+  font-style: normal;
+  font-size: x-large;
+}
+
+.list-group-item2 {
+  position: relative;
+  width: 100%;
+  display: block;
+  padding: 0.5rem 1rem;
+  color: #1a1a1a;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(248, 225, 91, 0.5);
+}
+
+.nostyle {
+  text-decoration: none;
+  font-style: normal;
+}
+
+@media (min-width: 600px) {
+  .nav-item a:hover {
+    color: rgb(0, 0, 0) !important;
+    background-color: #b3fd6a;
+  }
+
+  .dropdown-item:focus,
+  .dropdown-item:hover {
+    font-size: 150% !important;
+  }
+
+  .paragraph {
+    line-height: normal;
+    font-size: 120% !important;
+  }
+}
+
+@media (min-width: 2000px) {
+  .dropdown-item:focus,
+  .dropdown-item:hover {
+    font-size: 150% !important;
+    color: #000000;
+    background-color: #b3fd6a;
+  }
+
+  .h8 {
+    font-size: 200% !important;
+  }
+  .paragraph {
+    font-size: 200% !important;
+    padding: 50px;
+    line-height: normal;
+  }
+}
+
+@media (max-width: 600px) {
+  .h7 {
+    text-align: left !important;
+    font-size: 200% !important;
+    margin-bottom: 0px !important;
+    padding-bottom: 0px !important;
+  }
+}
+
+.floatbtn {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+
+.floatingbtn {
+  margin-top: 16px;
+}
+
+.csrtext {
+  font-size: large;
+  text-align: justify;
+  padding: 20px;
+}
+
+.cover {
+  position: relative; /* This makes the .cover container the positioning context */
+}
+
+/* Button styling */
+.btn-bottom {
+  position: absolute;
+  top: 95%;
+  right: 5%;
+  transform: translateX(-50%);
+  z-index: 10;
+  font-size: 16px !important;
+}
+
+/* Animation for zooming in and out */
+@keyframes zoomEffect {
+  0%,
+  100% {
+    transform: translateX(-50%) scale(1); /* Normal size */
+  }
+  50% {
+    transform: translateX(-50%) scale(1.1); /* Zoomed size */
+  }
+}
+
+.blink-animation {
+  animation: zoomEffect 1s infinite;
+}
+
+small {
+  font-size: 30px !important;
+}
+.slogan {
+  min-height: 100px !important;
+}
+.decenttext {
+  position: absolute;
+  top: 100%; /* Move the button halfway outside the container */
+  right: 5%;
+  transform: translateX(-50%); /* Center the button horizontally */
+  z-index: 11; /* Ensure the button appears on top of other content */
+  font-size: 16px;
+}
+
+@media (max-width: 600px) {
+  small {
+    font-size: 24px !important;
+  }
+}
+
+.teamname{
+font-weight: bold;
+line-height: 1.2 !important;
+padding-bottom: 0px !important;}
+.teamrole {
+  color: #000;
+  background-color: #b3fd6a;
+  font-size: 90%;
+  padding: 10px !important;
+  line-height: 1.2 !important; /* Adjust this value to reduce or increase line spacing */
+}
+.small{
+  font-size: 80% !important;
+  display: none !important;
+}
+.projects img{
+  margin-bottom: 0 !important;
+}
