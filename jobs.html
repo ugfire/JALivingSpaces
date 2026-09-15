@@ -2,7 +2,7 @@
 layout: home
 ---
 
- <main class="m-0 p-0">
+<main class="m-0 p-0">
   <section class="mbanner6 m-0">
     <div class="text-center">
       <div class="bg-gradient-dark p-0 row container-fluid m-0">
@@ -19,52 +19,28 @@ layout: home
   <!--------------------------------------------------END OF SECTION--------------------------------------------------------------------->
 
   <div class="container-fluid m-0 p-0 mt-5">
-    <h1 class="p-3 text-center d-none">See available Jobs below</h1>
-    <h1 class="p-3 text-center">No job openings currently.</h1>
-    <div class="p-0 row container-fluid m-0 d-none">
-      <div class="col-md-3"></div>
-      <div class="col-md-3">
-        <div class="m-3 p-3">
-          <h5 class="text-center bg-light p-3 fw-bold">
-            Finance and Administrative Assistant
-          </h5>
-          <img src="images/vacancy.png" class="img-fluid" alt="" srcset="" />
-          <table class="table">
-            <tr class="p-3">
-              <td class="fw-bold">Date of Issue:</td>
-              <td>15th July, 2024</td>
-            </tr>
-          </table>
+    <h2 class="p-3 text-center fw-bold text-dark">Available Job Opening</h2>
 
-          <p class="text-center">
-            <a href="docs/jobadvert.pdf" class="btn btn-dark w-100"
-              >See Details <i class="bi bi-arrow-down"></i>
+    <div class="container pb-5">
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-10 col-lg-7 text-center">
+          <div class="card shadow-lg border-0 rounded-4 overflow-hidden mb-4">
+            <a href="images/job.jpeg" target="_blank">
+              <img src="images/job.jpeg" class="img-fluid rounded-4 w-100" alt="Job Flier - JA Living Spaces" />
             </a>
-          </p>
+          </div>
+          <div class="d-flex flex-wrap justify-content-center gap-2">
+            <a href="images/job.jpeg" target="_blank" class="btn btn-lg btn-green border-0">
+              <i class="bi bi-arrows-fullscreen me-2"></i>View Full Flier
+            </a>
+            <button class="btn btn-lg btn-dark border-0" onclick="contactus()">
+              <i class="bi bi-envelope me-2"></i>Get in Touch
+            </button>
+          </div>
+          <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+          <script src="js/script.js"></script>
         </div>
       </div>
-      <div class="col-md-3">
-        <div class="m-3 p-3">
-          <h5 class="text-center bg-light p-3 fw-bold">
-            Front Desk <br />
-            Officer
-          </h5>
-          <img src="images/vacancy.png" class="img-fluid" alt="" srcset="" />
-          <table class="table">
-            <tr class="p-3">
-              <td class="fw-bold">Date of Issue:</td>
-              <td>15th July, 2024</td>
-            </tr>
-          </table>
-
-          <p class="text-center">
-            <a href="docs/jobadvert2.pdf" class="btn btn-dark w-100"
-              >See Details <i class="bi bi-arrow-down"></i>
-            </a>
-          </p>
-        </div>
-      </div>
-      <div class="col-md-3"></div>
     </div>
   </div>
 </main>
